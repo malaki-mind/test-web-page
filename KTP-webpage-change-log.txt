@@ -1,0 +1,11 @@
+CHANGE LOG
+
+4/18/2025
+- Created database to store Job Vacancies using Excel
+- Used a formula to automatically populate cells to test scalability
+
+4/20/2025
+- Decided on simple HTML/CSS/JS framework to build webpage
+- Used code snippet provided by Microsoft to turn Excel into JSON
+- Could not fetch data locally, created GitHub repo to store resources
+- Console now displays JSON data
