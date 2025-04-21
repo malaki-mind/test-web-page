@@ -1,0 +1,592 @@
+[
+  {
+    "Department": "Marketing",
+    "Job Title": "Senior Marketer",
+    "Vacancy Status": "Open",
+    "City": "Tokyo",
+    "Country/State": "Japan",
+    "Continent": "Asia",
+    "Hiring Manager": "Satori Kojima",
+    "Hiring Manager Email": "skojima@ktp.org"
+  },
+  {
+    "Department": "Consulting",
+    "Job Title": "Associate Consultant",
+    "Vacancy Status": "Open",
+    "City": "Seoul",
+    "Country/State": "South Korea",
+    "Continent": "Asia",
+    "Hiring Manager": "Yoon Park",
+    "Hiring Manager Email": "ypark@ktp.org"
+  },
+  {
+    "Department": "Consulting",
+    "Job Title": "Associate Consultant",
+    "Vacancy Status": "Open",
+    "City": "Seoul",
+    "Country/State": "South Korea",
+    "Continent": "Asia",
+    "Hiring Manager": "Yoon Park",
+    "Hiring Manager Email": "ypark@ktp.org"
+  },
+  {
+    "Department": "Consulting",
+    "Job Title": "Associate Consultant",
+    "Vacancy Status": "Open",
+    "City": "Seoul",
+    "Country/State": "South Korea",
+    "Continent": "Asia",
+    "Hiring Manager": "Yoon Park",
+    "Hiring Manager Email": "ypark@ktp.org"
+  },
+  {
+    "Department": "Consulting",
+    "Job Title": "Associate Consultant",
+    "Vacancy Status": "Open",
+    "City": "Munich",
+    "Country/State": "Germany",
+    "Continent": "Europe",
+    "Hiring Manager": "Franz Eisen",
+    "Hiring Manager Email": "feisen@ktp.org"
+  },
+  {
+    "Department": "IT",
+    "Job Title": "Data Specialist",
+    "Vacancy Status": "Open",
+    "City": "San Francisco",
+    "Country/State": "California",
+    "Continent": "USA",
+    "Hiring Manager": "Peter Griffin",
+    "Hiring Manager Email": "pgriffin@ktp.org"
+  },
+  {
+    "Department": "IT",
+    "Job Title": "Data Specialist",
+    "Vacancy Status": "Open",
+    "City": "Berlin",
+    "Country/State": "Germany",
+    "Continent": "Europe",
+    "Hiring Manager": "Franz Eisen",
+    "Hiring Manager Email": "feisen@ktp.org"
+  },
+  {
+    "Department": "Marketing",
+    "Job Title": "Sales Manager",
+    "Vacancy Status": "Open",
+    "City": "Daejeon",
+    "Country/State": "South Korea",
+    "Continent": "Asia",
+    "Hiring Manager": "Yoon Park",
+    "Hiring Manager Email": "ypark@ktp.org"
+  },
+  {
+    "Department": "IT",
+    "Job Title": "System Admin",
+    "Vacancy Status": "Open",
+    "City": "Osaka",
+    "Country/State": "Japan",
+    "Continent": "Asia",
+    "Hiring Manager": "Satori Kojima",
+    "Hiring Manager Email": "skojima@ktp.org"
+  },
+  {
+    "Department": "IT",
+    "Job Title": "Data Specialist",
+    "Vacancy Status": "Filled",
+    "City": "Newark",
+    "Country/State": "New Jersey",
+    "Continent": "USA",
+    "Hiring Manager": "Cory Washington",
+    "Hiring Manager Email": "cwashington@ktp.org"
+  },
+  {
+    "Department": "IT",
+    "Job Title": "System Admin",
+    "Vacancy Status": "Open",
+    "City": "Berlin",
+    "Country/State": "Germany",
+    "Continent": "Europe",
+    "Hiring Manager": "Franz Eisen",
+    "Hiring Manager Email": "feisen@ktp.org"
+  },
+  {
+    "Department": "Marketing",
+    "Job Title": "Associate Marketer",
+    "Vacancy Status": "Open",
+    "City": "London",
+    "Country/State": "United Kingdom",
+    "Continent": "Europe",
+    "Hiring Manager": "Roland Cromwell",
+    "Hiring Manager Email": "rcromwell@ktp.org"
+  },
+  {
+    "Department": "IT",
+    "Job Title": "Data Specialist",
+    "Vacancy Status": "Open",
+    "City": "London",
+    "Country/State": "United Kingdom",
+    "Continent": "Europe",
+    "Hiring Manager": "Roland Cromwell",
+    "Hiring Manager Email": "rcromwell@ktp.org"
+  },
+  {
+    "Department": "Finance",
+    "Job Title": "Accounts Manager",
+    "Vacancy Status": "Open",
+    "City": "Austin",
+    "Country/State": "Texas",
+    "Continent": "USA",
+    "Hiring Manager": "Steve Williams",
+    "Hiring Manager Email": "swilliams@ktp.org"
+  },
+  {
+    "Department": "Consulting",
+    "Job Title": "Senior Consultant",
+    "Vacancy Status": "Open",
+    "City": "Seoul",
+    "Country/State": "South Korea",
+    "Continent": "Asia",
+    "Hiring Manager": "Yoon Park",
+    "Hiring Manager Email": "ypark@ktp.org"
+  },
+  {
+    "Department": "Marketing",
+    "Job Title": "Sales Manager",
+    "Vacancy Status": "Open",
+    "City": "Birmingham",
+    "Country/State": "United Kingdom",
+    "Continent": "Europe",
+    "Hiring Manager": "Roland Cromwell",
+    "Hiring Manager Email": "rcromwell@ktp.org"
+  },
+  {
+    "Department": "Marketing",
+    "Job Title": "Senior Marketer",
+    "Vacancy Status": "Open",
+    "City": "Osaka",
+    "Country/State": "Japan",
+    "Continent": "Asia",
+    "Hiring Manager": "Satori Kojima",
+    "Hiring Manager Email": "skojima@ktp.org"
+  },
+  {
+    "Department": "Consulting",
+    "Job Title": "Senior Consultant",
+    "Vacancy Status": "Filled",
+    "City": "Daejeon",
+    "Country/State": "South Korea",
+    "Continent": "Asia",
+    "Hiring Manager": "Yoon Park",
+    "Hiring Manager Email": "ypark@ktp.org"
+  },
+  {
+    "Department": "Marketing",
+    "Job Title": "Senior Marketer",
+    "Vacancy Status": "Filled",
+    "City": "Birmingham",
+    "Country/State": "United Kingdom",
+    "Continent": "Europe",
+    "Hiring Manager": "Roland Cromwell",
+    "Hiring Manager Email": "rcromwell@ktp.org"
+  },
+  {
+    "Department": "Consulting",
+    "Job Title": "Associate Consultant",
+    "Vacancy Status": "Open",
+    "City": "Newark",
+    "Country/State": "New Jersey",
+    "Continent": "USA",
+    "Hiring Manager": "Cory Washington",
+    "Hiring Manager Email": "cwashington@ktp.org"
+  },
+  {
+    "Department": "Consulting",
+    "Job Title": "Senior Consultant",
+    "Vacancy Status": "Open",
+    "City": "Seoul",
+    "Country/State": "South Korea",
+    "Continent": "Asia",
+    "Hiring Manager": "Yoon Park",
+    "Hiring Manager Email": "ypark@ktp.org"
+  },
+  {
+    "Department": "IT",
+    "Job Title": "Help Desk Technician",
+    "Vacancy Status": "Open",
+    "City": "Daejeon",
+    "Country/State": "South Korea",
+    "Continent": "Asia",
+    "Hiring Manager": "Yoon Park",
+    "Hiring Manager Email": "ypark@ktp.org"
+  },
+  {
+    "Department": "IT",
+    "Job Title": "Data Specialist",
+    "Vacancy Status": "Open",
+    "City": "Austin",
+    "Country/State": "Texas",
+    "Continent": "USA",
+    "Hiring Manager": "Steve Williams",
+    "Hiring Manager Email": "swilliams@ktp.org"
+  },
+  {
+    "Department": "Marketing",
+    "Job Title": "Sales Manager",
+    "Vacancy Status": "Open",
+    "City": "Munich",
+    "Country/State": "Germany",
+    "Continent": "Europe",
+    "Hiring Manager": "Franz Eisen",
+    "Hiring Manager Email": "feisen@ktp.org"
+  },
+  {
+    "Department": "Finance",
+    "Job Title": "Financial Analyst",
+    "Vacancy Status": "Open",
+    "City": "Osaka",
+    "Country/State": "Japan",
+    "Continent": "Asia",
+    "Hiring Manager": "Satori Kojima",
+    "Hiring Manager Email": "skojima@ktp.org"
+  },
+  {
+    "Department": "Finance",
+    "Job Title": "Financial Analyst",
+    "Vacancy Status": "Open",
+    "City": "Seoul",
+    "Country/State": "South Korea",
+    "Continent": "Asia",
+    "Hiring Manager": "Yoon Park",
+    "Hiring Manager Email": "ypark@ktp.org"
+  },
+  {
+    "Department": "Human Resource",
+    "Job Title": "Employee Relations",
+    "Vacancy Status": "Open",
+    "City": "Dallas",
+    "Country/State": "Texas",
+    "Continent": "USA",
+    "Hiring Manager": "Steve Williams",
+    "Hiring Manager Email": "swilliams@ktp.org"
+  },
+  {
+    "Department": "Human Resource",
+    "Job Title": "Compensation Specialist",
+    "Vacancy Status": "Open",
+    "City": "Osaka",
+    "Country/State": "Japan",
+    "Continent": "Asia",
+    "Hiring Manager": "Satori Kojima",
+    "Hiring Manager Email": "skojima@ktp.org"
+  },
+  {
+    "Department": "IT",
+    "Job Title": "Help Desk Technician",
+    "Vacancy Status": "Open",
+    "City": "Daejeon",
+    "Country/State": "South Korea",
+    "Continent": "Asia",
+    "Hiring Manager": "Yoon Park",
+    "Hiring Manager Email": "ypark@ktp.org"
+  },
+  {
+    "Department": "IT",
+    "Job Title": "Data Specialist",
+    "Vacancy Status": "Open",
+    "City": "Seoul",
+    "Country/State": "South Korea",
+    "Continent": "Asia",
+    "Hiring Manager": "Yoon Park",
+    "Hiring Manager Email": "ypark@ktp.org"
+  },
+  {
+    "Department": "Finance",
+    "Job Title": "Financial Analyst",
+    "Vacancy Status": "Open",
+    "City": "Tokyo",
+    "Country/State": "Japan",
+    "Continent": "Asia",
+    "Hiring Manager": "Satori Kojima",
+    "Hiring Manager Email": "skojima@ktp.org"
+  },
+  {
+    "Department": "IT",
+    "Job Title": "System Admin",
+    "Vacancy Status": "Open",
+    "City": "London",
+    "Country/State": "United Kingdom",
+    "Continent": "Europe",
+    "Hiring Manager": "Roland Cromwell",
+    "Hiring Manager Email": "rcromwell@ktp.org"
+  },
+  {
+    "Department": "IT",
+    "Job Title": "Help Desk Technician",
+    "Vacancy Status": "Open",
+    "City": "San Francisco",
+    "Country/State": "California",
+    "Continent": "USA",
+    "Hiring Manager": "Peter Griffin",
+    "Hiring Manager Email": "pgriffin@ktp.org"
+  },
+  {
+    "Department": "Human Resource",
+    "Job Title": "Employee Relations",
+    "Vacancy Status": "Open",
+    "City": "Seoul",
+    "Country/State": "South Korea",
+    "Continent": "Asia",
+    "Hiring Manager": "Yoon Park",
+    "Hiring Manager Email": "ypark@ktp.org"
+  },
+  {
+    "Department": "IT",
+    "Job Title": "Data Specialist",
+    "Vacancy Status": "Open",
+    "City": "Birmingham",
+    "Country/State": "United Kingdom",
+    "Continent": "Europe",
+    "Hiring Manager": "Roland Cromwell",
+    "Hiring Manager Email": "rcromwell@ktp.org"
+  },
+  {
+    "Department": "Consulting",
+    "Job Title": "Senior Consultant",
+    "Vacancy Status": "Open",
+    "City": "Tokyo",
+    "Country/State": "Japan",
+    "Continent": "Asia",
+    "Hiring Manager": "Satori Kojima",
+    "Hiring Manager Email": "skojima@ktp.org"
+  },
+  {
+    "Department": "Marketing",
+    "Job Title": "Associate Marketer",
+    "Vacancy Status": "Filled",
+    "City": "Birmingham",
+    "Country/State": "United Kingdom",
+    "Continent": "Europe",
+    "Hiring Manager": "Roland Cromwell",
+    "Hiring Manager Email": "rcromwell@ktp.org"
+  },
+  {
+    "Department": "Finance",
+    "Job Title": "Financial Analyst",
+    "Vacancy Status": "Open",
+    "City": "Birmingham",
+    "Country/State": "United Kingdom",
+    "Continent": "Europe",
+    "Hiring Manager": "Roland Cromwell",
+    "Hiring Manager Email": "rcromwell@ktp.org"
+  },
+  {
+    "Department": "Human Resource",
+    "Job Title": "Employee Relations",
+    "Vacancy Status": "Open",
+    "City": "Tokyo",
+    "Country/State": "Japan",
+    "Continent": "Asia",
+    "Hiring Manager": "Satori Kojima",
+    "Hiring Manager Email": "skojima@ktp.org"
+  },
+  {
+    "Department": "Consulting",
+    "Job Title": "Senior Consultant",
+    "Vacancy Status": "Open",
+    "City": "Birmingham",
+    "Country/State": "United Kingdom",
+    "Continent": "Europe",
+    "Hiring Manager": "Roland Cromwell",
+    "Hiring Manager Email": "rcromwell@ktp.org"
+  },
+  {
+    "Department": "Marketing",
+    "Job Title": "Sales Manager",
+    "Vacancy Status": "Open",
+    "City": "Daejeon",
+    "Country/State": "South Korea",
+    "Continent": "Asia",
+    "Hiring Manager": "Yoon Park",
+    "Hiring Manager Email": "ypark@ktp.org"
+  },
+  {
+    "Department": "Marketing",
+    "Job Title": "Senior Marketer",
+    "Vacancy Status": "Open",
+    "City": "Tokyo",
+    "Country/State": "Japan",
+    "Continent": "Asia",
+    "Hiring Manager": "Satori Kojima",
+    "Hiring Manager Email": "skojima@ktp.org"
+  },
+  {
+    "Department": "Finance",
+    "Job Title": "Accounts Manager",
+    "Vacancy Status": "Open",
+    "City": "Birmingham",
+    "Country/State": "United Kingdom",
+    "Continent": "Europe",
+    "Hiring Manager": "Roland Cromwell",
+    "Hiring Manager Email": "rcromwell@ktp.org"
+  },
+  {
+    "Department": "Finance",
+    "Job Title": "Accounts Manager",
+    "Vacancy Status": "Open",
+    "City": "Birmingham",
+    "Country/State": "United Kingdom",
+    "Continent": "Europe",
+    "Hiring Manager": "Roland Cromwell",
+    "Hiring Manager Email": "rcromwell@ktp.org"
+  },
+  {
+    "Department": "Finance",
+    "Job Title": "Accounts Manager",
+    "Vacancy Status": "Open",
+    "City": "Birmingham",
+    "Country/State": "United Kingdom",
+    "Continent": "Europe",
+    "Hiring Manager": "Roland Cromwell",
+    "Hiring Manager Email": "rcromwell@ktp.org"
+  },
+  {
+    "Department": "IT",
+    "Job Title": "System Admin",
+    "Vacancy Status": "Filled",
+    "City": "Berlin",
+    "Country/State": "Germany",
+    "Continent": "Europe",
+    "Hiring Manager": "Franz Eisen",
+    "Hiring Manager Email": "feisen@ktp.org"
+  },
+  {
+    "Department": "Finance",
+    "Job Title": "Accounts Manager",
+    "Vacancy Status": "Open",
+    "City": "Birmingham",
+    "Country/State": "United Kingdom",
+    "Continent": "Europe",
+    "Hiring Manager": "Roland Cromwell",
+    "Hiring Manager Email": "rcromwell@ktp.org"
+  },
+  {
+    "Department": "Marketing",
+    "Job Title": "Sales Manager",
+    "Vacancy Status": "Open",
+    "City": "Austin",
+    "Country/State": "Texas",
+    "Continent": "USA",
+    "Hiring Manager": "Steve Williams",
+    "Hiring Manager Email": "swilliams@ktp.org"
+  },
+  {
+    "Department": "Finance",
+    "Job Title": "Financial Analyst",
+    "Vacancy Status": "Open",
+    "City": "Berlin",
+    "Country/State": "Germany",
+    "Continent": "Europe",
+    "Hiring Manager": "Franz Eisen",
+    "Hiring Manager Email": "feisen@ktp.org"
+  },
+  {
+    "Department": "Consulting",
+    "Job Title": "Senior Consultant",
+    "Vacancy Status": "Open",
+    "City": "Daejeon",
+    "Country/State": "South Korea",
+    "Continent": "Asia",
+    "Hiring Manager": "Yoon Park",
+    "Hiring Manager Email": "ypark@ktp.org"
+  },
+  {
+    "Department": "Marketing",
+    "Job Title": "Associate Marketer",
+    "Vacancy Status": "Open",
+    "City": "Berlin",
+    "Country/State": "Germany",
+    "Continent": "Europe",
+    "Hiring Manager": "Franz Eisen",
+    "Hiring Manager Email": "feisen@ktp.org"
+  },
+  {
+    "Department": "Marketing",
+    "Job Title": "Senior Marketer",
+    "Vacancy Status": "Open",
+    "City": "Tokyo",
+    "Country/State": "Japan",
+    "Continent": "Asia",
+    "Hiring Manager": "Satori Kojima",
+    "Hiring Manager Email": "skojima@ktp.org"
+  },
+  {
+    "Department": "Marketing",
+    "Job Title": "Senior Marketer",
+    "Vacancy Status": "Open",
+    "City": "London",
+    "Country/State": "United Kingdom",
+    "Continent": "Europe",
+    "Hiring Manager": "Roland Cromwell",
+    "Hiring Manager Email": "rcromwell@ktp.org"
+  },
+  {
+    "Department": "Human Resource",
+    "Job Title": "Compensation Specialist",
+    "Vacancy Status": "Open",
+    "City": "Austin",
+    "Country/State": "Texas",
+    "Continent": "USA",
+    "Hiring Manager": "Steve Williams",
+    "Hiring Manager Email": "swilliams@ktp.org"
+  },
+  {
+    "Department": "Marketing",
+    "Job Title": "Senior Marketer",
+    "Vacancy Status": "Filled",
+    "City": "Birmingham",
+    "Country/State": "United Kingdom",
+    "Continent": "Europe",
+    "Hiring Manager": "Roland Cromwell",
+    "Hiring Manager Email": "rcromwell@ktp.org"
+  },
+  {
+    "Department": "Marketing",
+    "Job Title": "Associate Marketer",
+    "Vacancy Status": "Open",
+    "City": "Birmingham",
+    "Country/State": "United Kingdom",
+    "Continent": "Europe",
+    "Hiring Manager": "Roland Cromwell",
+    "Hiring Manager Email": "rcromwell@ktp.org"
+  },
+  {
+    "Department": "Finance",
+    "Job Title": "Financial Analyst",
+    "Vacancy Status": "Open",
+    "City": "Newark",
+    "Country/State": "New Jersey",
+    "Continent": "USA",
+    "Hiring Manager": "Cory Washington",
+    "Hiring Manager Email": "cwashington@ktp.org"
+  },
+  {
+    "Department": "Finance",
+    "Job Title": "Financial Analyst",
+    "Vacancy Status": "Open",
+    "City": "Daejeon",
+    "Country/State": "South Korea",
+    "Continent": "Asia",
+    "Hiring Manager": "Yoon Park",
+    "Hiring Manager Email": "ypark@ktp.org"
+  },
+  {
+    "Department": "Consulting",
+    "Job Title": "Associate Consultant",
+    "Vacancy Status": "Open",
+    "City": "Berlin",
+    "Country/State": "Germany",
+    "Continent": "Europe",
+    "Hiring Manager": "Franz Eisen",
+    "Hiring Manager Email": "feisen@ktp.org"
+  }
+]
