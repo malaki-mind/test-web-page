@@ -1,0 +1,17 @@
+<table id="myTable">
+  <thead>
+    <tr>
+      <th>Column1</th>
+      <th>Column2</th>
+      ...
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Row1Col1</td>
+      <td>Row1Col2</td>
+      ...
+    </tr>
+    ...
+  </tbody>
+</table>

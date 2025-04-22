@@ -11,11 +11,17 @@
     <body>
         <h1>heading</h1>
         <p>paragraph</p>
+	<ul>
+	</ul>
     <script>
+	const listElements = document.querySelector('ul');
         fetch('https://raw.githubusercontent.com/malaki-mind/test-web-page/refs/heads/main/JobDatabase.json')
             .then(response => response.json())
 	    .then(data => {
 	        console.log(data)
+		data.forEach(post => {
+		    listElements.insertAdjacentHTML('beforeend', `<li>${post.title}</li>`)
+		});
 	    });
     </script>
     </body>

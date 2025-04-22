@@ -1,23 +1,66 @@
 <!DOCTYPE html>
 <html>
+
+
+<head>
+    <title>TITLE</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.css">
 
-    <head>
-        <title>TITLE</title>
-    </head>
+</head>
 
     <body>
         <h1>heading</h1>
         <p>paragraph</p>
-    <script>
-        fetch('https://raw.githubusercontent.com/malaki-mind/test-web-page/refs/heads/main/JobDatabase.json')
-            .then(response => response.json())
-	    .then(data => {
-	        console.log(data)
-	    });
-    </script>
+        <div id="dvTable" class="w3-tables-all w3-hoverable"></div>
+     
+        <script>
+            $(document).ready(function () {
+           
+                fetch('https://raw.githubusercontent.com/malaki-mind/test-web-page/refs/heads/main/JobDatabase.json')
+                    .then(response => response.json())
+                    .then(data => {
+                      
+                        const dataLen = data.length;
+                        var keys = [];
+                        var keys = Object.keys(data[0]);
+                        const keyLen = keys.length;
+
+                        var table = document.createElement("TABLE");
+
+                        console.log(keys);
+                        console.log(keys.length);
+
+                        var row = table.insertRow(-1);
+                        for (var i = 0; i < keyLen; i++) {
+                            var headerLabel = document.createElement("TH");
+                            headerLabel.innerHTML = keys[i];
+                            row.appendChild(headerLabel);
+                            console.log(keys[i]);
+                       
+                        }
+
+                        for (var i = 0; i < dataLen; i++) {
+                            row = table.insertRow(-1);
+                            keys.forEach(function (keys) {
+                                var values = row.insertCell(-1);
+                                values.innerHTML = data[i][keys];
+                            });
+                        }
+
+                        var dvTable = document.getElementById("dvTable");
+                        dvTable.innerHTML = "";
+                        dvTable.appendChild(table);
+                        $(table).DataTable();
+                    });
+            });
+
+
+        </script>
     </body>
 
    
