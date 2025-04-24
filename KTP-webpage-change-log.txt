@@ -17,3 +17,13 @@ CHANGE/LEARN LOG
 - For Loop implemented to display values for each key
 - May be too superficial to search / filter
 - Looking into jQuery "DataTables" and need to under HTML table structure better
+
+4/22/2025
+- Learned more about ".appendChild" and ".createElement"
+- Formatted THEAD
+
+4/23/2025
+- Formatted TBODY
+- HTML table now suitable for jQuery "Data Table" feature
+	- Table is now searchable, filterable, paginated
+- Website now needs more style

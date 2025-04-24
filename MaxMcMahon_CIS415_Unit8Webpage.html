@@ -26,33 +26,47 @@
                     .then(data => {
                       
                         const dataLen = data.length;
+                        var dataMap = new Map();
                         var keys = [];
+                        var vals = [[]];
                         var keys = Object.keys(data[0]);
                         const keyLen = keys.length;
 
-                        var table = document.createElement("TABLE");
-
-                        console.log(keys);
-                        console.log(keys.length);
-
-                        var row = table.insertRow(-1);
-                        for (var i = 0; i < keyLen; i++) {
-                            var headerLabel = document.createElement("TH");
-                            headerLabel.innerHTML = keys[i];
-                            row.appendChild(headerLabel);
-                            console.log(keys[i]);
-                       
-                        }
-
-                        for (var i = 0; i < dataLen; i++) {
-                            row = table.insertRow(-1);
-                            keys.forEach(function (keys) {
-                                var values = row.insertCell(-1);
-                                values.innerHTML = data[i][keys];
-                            });
-                        }
-
+                        var table = document.createElement("TABLE");                     
+                        var tableHead = document.createElement("THEAD");
+                        var tableBody = document.createElement("TBODY")
+                        var headRow = document.createElement("TR")
+                        var bodyRow = "";
+                        var headerLabel = "";
+                        var rowLabel = "";
                         var dvTable = document.getElementById("dvTable");
+                     
+                        for (var i = 0; i < dataLen; i++) { 
+                            vals[i] = Object.values(data[i]);
+                        }
+
+                        for (var i = 0; i < keyLen; i++) {
+                            headerLabel = document.createElement("TH");
+                            headerLabel.innerHTML = keys[i];
+                            headRow.appendChild(headerLabel);
+                            tableHead.appendChild(headRow);
+                                                
+                        }
+                        
+                        table.appendChild(tableHead);
+                        
+                        for (var i = 0; i < vals.length; i++) {
+                            bodyRow = document.createElement("TR");
+                            for (var j = 0; j < keyLen; j++) {
+                                rowLabel = document.createElement("TD");                             
+                                rowLabel.innerHTML = vals[i][j];                               
+                                bodyRow.appendChild(rowLabel);
+                                tableBody.appendChild(bodyRow);
+                            }                                                      
+                        }
+
+                        table.appendChild(tableBody);
+                       
                         dvTable.innerHTML = "";
                         dvTable.appendChild(table);
                         $(table).DataTable();
