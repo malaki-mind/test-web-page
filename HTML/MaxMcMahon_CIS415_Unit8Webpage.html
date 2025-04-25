@@ -6,6 +6,7 @@
     <title>TITLE</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
@@ -14,10 +15,18 @@
 </head>
 
     <body>
-        <h1>heading</h1>
-        <p>paragraph</p>
-        <div id="dvTable" class="w3-tables-all w3-hoverable"></div>
-     
+       <header class = "w3-container w3-deep-orange w3-center w3-round-xxlarge w3-margin">
+                <h1><p>KTP Consulting</p></h1>
+        </header>
+
+        <div class="w3-container w3-center w3-wide">
+           <h2>
+                <p>Welcome to KTP Consulting Job Vacancy Database</p>
+           </h2>
+        </div>
+        
+            <div id="dvTable" class="w3-tables-all w3-card-4 w3-hoverable w3-margin" style="width:97%"></div>
+        
         <script>
             $(document).ready(function () {
            
@@ -69,7 +78,22 @@
                        
                         dvTable.innerHTML = "";
                         dvTable.appendChild(table);
-                        $(table).DataTable();
+                        var dataTable = $(table).DataTable({ dom: '<"w3-container w3-center w3-margin" lf>rt<"w3-container w3-center w3-margin" ip><"clear">'});
+                        
+                        
+                        dataTable.on('click', 'tbody tr', function () {
+                            let data = dataTable.row(this).data();
+                            Swal.fire({
+                                theme: 'dark',
+                                title: 'Submit Application',
+                                html: '<h3>' + data[1] + '</h3><p><b></p>' + data[2] + ", " + data[3],
+                                icon: "question",
+                                confirmButtonColor: "#FF5722",
+                                showCancelButton: true,
+                                confirmButtonText: "Yes",
+                                cancelButtonText: "No"
+                            })
+                        });
                     });
             });
 

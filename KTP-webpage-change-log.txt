@@ -27,3 +27,12 @@ CHANGE/LEARN LOG
 - HTML table now suitable for jQuery "Data Table" feature
 	- Table is now searchable, filterable, paginated
 - Website now needs more style
+
+4/24/2025
+- Learned a bit more about W3.CSS for style
+	- Made banner and relevant body text
+	- Stylized table to be a card and aligned controls
+- Learned click method for datatable: 
+	- dataTable.on('click', //html table position, function(){})
+- Applied Sweet Angel 2 framework for stylized dialog box
+- Cleaned up file structure
